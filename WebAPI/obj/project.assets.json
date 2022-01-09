@@ -1263,11 +1263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\after-2022-01-01\\api-clone\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\after-2022-01-01\\starter\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\after-2022-01-01\\api-clone\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\after-2022-01-01\\starter\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\hodho\\.nuget\\packages\\",
-      "outputPath": "C:\\after-2022-01-01\\api-clone\\WebAPI\\obj\\",
+      "outputPath": "C:\\after-2022-01-01\\starter\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

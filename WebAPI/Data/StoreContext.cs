@@ -1,7 +1,7 @@
-using API.Entities;
+using WebAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Data
+namespace WebAPI.Data
 {
     public class StoreContext : DbContext
     {
@@ -10,5 +10,6 @@ namespace API.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Basket> Baskets { get; set; }
     }
 }

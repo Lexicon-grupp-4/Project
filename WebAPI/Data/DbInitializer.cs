@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using API.Entities;
+using WebAPI.Entities;
 
-namespace API.Data
+namespace WebAPI.Data
 {
     public static class DbInitializer
     {

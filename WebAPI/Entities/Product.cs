@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace API.Entities
+namespace WebAPI.Entities
 {
     public class Product
     {
@@ -10,7 +10,7 @@ namespace API.Entities
         [MaxLength(50)]
         public string Name { get; set; }
         public string Description { get; set; }
-        public float Price { get; set; }
+        public long Price { get; set; }
         public string PictureUrl { get; set; }
         public string Type { get; set; }
         public string Brand { get; set; }

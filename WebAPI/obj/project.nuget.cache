@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NfHGCA9aD6Vp06aEV7302yN2GViKJJtsokGU/uLQr5FkDaHurPw51qR9wZ6IMMtC0HuS4Xg+PUPa9132ENR5+g==",
+  "dgSpecHash": "GUHQFqAnS5KHMlr4ALSda6Oia/GcOC4/EwOkYihlNrptdc/jnMiRk5Xt8+ZS734sWq6XW/fSf9oGgAQ0s4ajvg==",
   "success": true,
-  "projectFilePath": "C:\\after-2022-01-01\\api-clone\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\after-2022-01-01\\starter\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hodho\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hodho\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
