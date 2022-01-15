@@ -3,6 +3,7 @@ import {
   AppBar,
   Badge,
   Box,
+  CardMedia,
   IconButton,
   List,
   ListItem,
@@ -10,8 +11,10 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material';
+import Logo from '../../logo/logo.png';
 import { Link, NavLink } from 'react-router-dom';
-import { useStoreContext } from '../context/StoreContext';
+//import { useStoreContext } from '../context/StoreContext';
+import { useAppSelector } from '../store/configureStore';
 
 interface Props {
   darkMode: boolean;
@@ -42,7 +45,8 @@ const navStyles = {
 };
 
 export default function Header({ darkMode, handleThemeChange }: Props) {
-  const { basket } = useStoreContext();
+  //const { basket } = useStoreContext();
+  const { basket } = useAppSelector((state) => state.basket);
   const itemCount = basket?.items.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
@@ -57,6 +61,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
           justifyContent: 'space-between',
           alignItems: 'center',
         }}
+       style={{marginLeft:0,paddingLeft:0}}
       >
         <Box display="flex" alignItems="center">
           <Typography
@@ -66,7 +71,14 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
             to="/"
             sx={navStyles}
           >
-            Snickarverktygs
+            <CardMedia
+              sx={{
+                height: 63,
+                width: 230,
+              }}
+              image={Logo}
+              title="logo"
+            />
           </Typography>
           <Switch checked={darkMode} onChange={handleThemeChange} />
         </Box>
