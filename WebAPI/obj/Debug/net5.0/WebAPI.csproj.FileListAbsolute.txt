@@ -166,3 +166,15 @@ C:\after-2022-01-01\starter\WebAPI\obj\Debug\net5.0\WebAPI.dll
 C:\after-2022-01-01\starter\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
 C:\after-2022-01-01\starter\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\after-2022-01-01\starter\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\after-2022-01-01\starter\WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

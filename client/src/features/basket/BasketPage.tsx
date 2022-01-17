@@ -55,7 +55,7 @@ export default function BasketPage() {
                   </Box>
                 </TableCell>
                 <TableCell align="right">
-                  ${(item.price / 100).toFixed(2)}
+                  {(item.price / 100).toFixed(2)} kr
                 </TableCell>
                 <TableCell align="center">
                   <LoadingButton
