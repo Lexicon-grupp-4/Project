@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Entities
 {
-    public class User : IdentityUser<int>
+    public class Role : IdentityRole<int>
     {
-        public UserAddress Address { get; set; }
     }
 }
