@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\WebAPI",
-    "\\WebAPI\\Entities"
+    "\\WebAPI\\Controllers",
+    "\\WebAPI\\Entities",
+    "\\WebAPI\\Entities\\OrderAggregate",
+    "\\WebAPI\\Services"
   ],
-  "SelectedNode": "\\WebAPI\\Entities\\Product.cs",
+  "SelectedNode": "\\WebAPI\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

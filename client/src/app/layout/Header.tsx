@@ -52,7 +52,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
   return (
     <AppBar
       position="static"
-      sx={{ mb: 4 }}
+      
       style={{ backgroundColor: '#d02552' }}
     >
       <Toolbar

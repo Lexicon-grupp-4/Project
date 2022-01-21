@@ -68,6 +68,14 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.87.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
