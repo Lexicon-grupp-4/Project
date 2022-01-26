@@ -30,6 +30,6 @@ namespace WebAPI.DTOs
 
         [Required]
         [Range(0, 200)]
-        public int QuantityInStock { get; set; }
+        public int Quantity { get; set; }
     }
 }
