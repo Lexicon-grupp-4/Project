@@ -82,7 +82,7 @@ function App() {
               <PrivateRoute path="/checkout" component={CheckoutWrapper} />
               <PrivateRoute path="/orders" component={Orders} />
               <PrivateRoute
-                roles={['Admin']}
+                /* roles={['Admin']} */
                 path="/inventory"
                 component={Inventory}
               />
