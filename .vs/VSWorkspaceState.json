@@ -5,6 +5,7 @@
     "\\WebAPI\\Controllers",
     "\\WebAPI\\Entities",
     "\\WebAPI\\Entities\\OrderAggregate",
+    "\\WebAPI\\Extensions",
     "\\WebAPI\\Services"
   ],
   "SelectedNode": "\\WebAPI\\Startup.cs",

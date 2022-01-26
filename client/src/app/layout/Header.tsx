@@ -50,11 +50,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
   const itemCount = basket?.items.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
-    <AppBar
-      position="static"
-      
-      style={{ backgroundColor: '#d02552' }}
-    >
+    <AppBar position="static" style={{ backgroundColor: '#d02552' }}>
       <Toolbar
         sx={{
           display: 'flex',
@@ -88,6 +84,11 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
               {title.toUpperCase()}
             </ListItem>
           ))}
+          {user && user.roles?.includes('Admin') && (
+            <ListItem component={NavLink} to={'/inventory'} sx={navStyles}>
+              INVENTORY
+            </ListItem>
+          )}
         </List>
         <Box display="flex" alignItems="center">
           <IconButton
