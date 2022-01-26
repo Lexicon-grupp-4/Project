@@ -18,16 +18,15 @@ import ServerError from '../errors/ServerError';
 import NotFound from '../errors/NotFound';
 import BasketPage from '../../features/basket/BasketPage';
 import LoadingComponent from './LoadingComponent';
-import CheckoutWrapper from '../../features/checkout/CheckoutWrapper';
 import { useAppDispatch } from '../store/configureStore';
 import { fetchBasketAsync } from '../../features/basket/basketSlice';
 import Login from '../../features/account/Login';
 import Register from '../../features/account/Register';
 import { fetchCurrentUser } from '../../features/account/accountSlice';
 import PrivateRoute from './PrivateRoute';
-//import Footer from '../components/Footer';
 import Orders from '../../features/orders/Orders';
-import Footer from '../components/Footer';
+import CheckoutWrapper from '../../features/checkout/CheckoutWrapper';
+import Inventory from '../../features/admin/Inventory';
 
 function App() {
   const dispatch = useAppDispatch();
@@ -82,6 +81,11 @@ function App() {
               <Route path="/basket" component={BasketPage} />
               <PrivateRoute path="/checkout" component={CheckoutWrapper} />
               <PrivateRoute path="/orders" component={Orders} />
+              <PrivateRoute
+                roles={['Admin']}
+                path="/inventory"
+                component={Inventory}
+              />
               <Route path="/login" component={Login} />
               <Route path="/register" component={Register} />
               <Route component={NotFound} />
@@ -89,10 +93,6 @@ function App() {
           </Container>
         )}
       />
-
-      <br />
-      <hr />
-      <Footer />
     </ThemeProvider>
   );
 }

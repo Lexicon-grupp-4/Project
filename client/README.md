@@ -4,3 +4,6 @@
 
  # dotnet ef migrations add PostGresInitial -o Data/Migrations
  # p'~X*X)&sHSg%}&dkf)Q>_5=4tXC\F>E
+ # git checkout -b Inventory
+ # git push -u origin Inventory
+ 
