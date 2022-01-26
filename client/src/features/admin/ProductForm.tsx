@@ -93,7 +93,7 @@ export default function ProductForm({ product, cancelEdit }: Props) {
             <AppTextInput
               type="number"
               control={control}
-              name="quantityInStock"
+              name="quantity"
               label="Quantity in Stock"
             />
           </Grid>
